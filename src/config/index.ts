@@ -8,6 +8,16 @@ export const PRODUCT_CATEGORIES = [
         href: "#",
         imageSrc: "/nav/ui-kits/mixed.jpg",
       },
+      {
+        name: "Editor picks",
+        href: "#",
+        imageSrc: "/nav/ui-kits/mixed.jpg",
+      },
+      {
+        name: "Editor picks",
+        href: "#",
+        imageSrc: "/nav/ui-kits/mixed.jpg",
+      },
     ],
   },
 ];
