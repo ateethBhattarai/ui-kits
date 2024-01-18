@@ -20,11 +20,11 @@ const start = async () => {
   });
 
   nextApp.prepare().then(() => {
-    payload.logger.info("NextJS app started");
+    // payload.logger.info("NextJS app started");
     app.listen(PORT, async () => {
-      payload.logger.info(
-        `NextJS app URL: ${process.env.NEXT_PUBLIC_SERVER_URL}`
-      );
+      // payload.logger.info(
+      //   `NextJS app URL: ${process.env.NEXT_PUBLIC_SERVER_URL}`
+      // );
     });
   });
 };
